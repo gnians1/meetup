@@ -17,3 +17,5 @@ Route::resource('pjax','PjaxController');
 //登录
 Auth::routes();
 
+Route::get('blog','BlogController');
+
